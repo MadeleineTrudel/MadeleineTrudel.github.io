@@ -18,7 +18,7 @@ body{
   
   .left{
    background: linear-gradient(0deg, rgba(0,2,36,0.7875525210084033) 0%, rgba(42,29,106,0.9416141456582633) 47%, rgba(62,125,185,1) 100%);
-	width: 60%;
+	width: 66%;
 	height: 90vh;
 	overflow: scroll;
 	padding: 34px;
@@ -26,14 +26,17 @@ body{
   
   .right{
 	background: linear-gradient(0deg, rgba(0,2,36,0.7875525210084033) 0%, rgba(106,29,65,0.9416141456582633) 47%, rgba(185,62,85,1) 100%);
-	width: 32%;
+	width: 33%;
 	height: 90vh;
 	overflow: scroll;
 	padding: 25px
   }
   
   img{
-	width: 100%;
+	width: 95%;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-left: 20px;
   }
   
   .title {
