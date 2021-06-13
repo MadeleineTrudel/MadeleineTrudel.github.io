@@ -4,10 +4,15 @@ body {
 	background: linear-gradient(0deg, rgba(63,124,152,1) 0%, rgba(123,95,187,1) 33%, rgba(255,129,159,1) 61%, rgba(255,241,182,1) 100%);
 }
 
+.body2 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 42px;
+	background: linear-gradient(0deg, rgba(125,162,204,1) 0%, rgba(154,214,237,1) 23%, rgba(182,241,226,1) 49%, rgba(255,234,180,1) 85%, rgba(255,226,180,1) 100%);
+}
+
 .paragraph {
 	margin-bottom: 30px;
 	font-size: 30px;
-	padding: 20px;
 }
 
 a {
@@ -35,9 +40,42 @@ a {
 	margin-bottom: -10px;
 }
 
+.slide-in-right {
+	-webkit-animation: slide-in-right 2s ease-out 0.3s ;
+	        animation: slide-in-right 2s ease-out 0.3s ;
+	margin-top: -296px;
+	margin-left: -105px;
+	position:fixed;
+}
+
+@-webkit-keyframes slide-in-right {
+	0% {
+	  -webkit-transform: translateX(1000px);
+			  transform: translateX(1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes slide-in-right {
+	0% {
+	  -webkit-transform: translateX(1000px);
+			  transform: translateX(1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+
 .caption{
 	font-size: 30px;
-	margin-left: 25px;
+	margin-left: 45px;
 	margin-bottom: 260px;
 }
 
@@ -52,7 +90,7 @@ a {
 }
 
 .middle{
-	width: 45%;
+	width: 35%;
 	margin-left: 70px;
 }
 
@@ -77,23 +115,39 @@ a {
 	height: 100px;
 	border-radius: 100%;
 	margin-bottom:20px;
-	margin-left:120px;
+	margin-left:135%;
 }
 
+.sun{
+	background-color: rgb(255, 238, 0);
+    box-shadow: 0 0 45px 0 #ffae00;
+}
 .yellow{
-	background-color: yellow;
+	background-color: rgb(255, 255, 132);
 }
 
 .orange{
-	background-color: rgb(255, 165, 80);
+	background-color: rgb(255, 164, 79);
 }
 
 .red{
-	background-color: indianred;
+	background-color: rgb(240, 107, 162);
 }
 
 .purple{
-	background-color: rgb(112, 98, 194);
+	background-color: rgb(174, 100, 218);
+}
+
+.green{
+	background-color: rgb(194, 224, 149);
+}
+
+.blue{
+	background-color: rgb(105, 215, 230);
+}
+
+.grey{
+	background-color: rgb(129, 154, 182);
 }
 
 .button{
@@ -103,7 +157,7 @@ a {
 }
 
 .button a{
-	color:cornsilk;
+	color:rgb(131, 113, 169);
 	text-decoration: none;
 
 }

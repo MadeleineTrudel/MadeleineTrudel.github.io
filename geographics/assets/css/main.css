@@ -1,5 +1,5 @@
 body{
-	font-size: 20px;
+	font-size: 30px;
 	color: rgb(255, 255, 255);
 	font-family: verdana;
   }
@@ -20,8 +20,8 @@ body{
   .Menu-list-item:hover,
   .Menu-list-item:active{
 	transform: skewX(12deg) translateX(5px);
-	transform: scale(1.1);
-	margin-left: 5%;
+	transform: scale(1);
+	margin-left: 2%;
 	font-style:italic;
   }
   
@@ -30,7 +30,7 @@ body{
 	width: 66%;
 	height: 80vh;
 	overflow: scroll;
-	padding: 80px;
+	padding: 30px;
   }
   
   .right{
@@ -38,7 +38,7 @@ body{
 	width: 34%;
 	height: 80vh;
 	overflow: scroll;
-	padding: 50px
+	padding: 20px
   }
   
 img{
@@ -61,7 +61,7 @@ img{
   .imgbenotafraid{
 	  width:25vw;
 	  margin-left:25%;
-	  margin-top: -40px;
+	  margin-top: -10px;
 	  margin-bottom: 30px;
   }
 
@@ -77,7 +77,7 @@ img{
 
   .imglines{
 	  width: 100%;
-	  margin-top: 200px;
+	  margin-top: 230px;
   }
 
   
@@ -97,6 +97,10 @@ img{
 	  padding-top: 20px;
 	  padding-left: 20%;
 	  padding-right: 25%;
+  }
+
+  .space{
+	  margin-bottom:150px;
   }
   
   .menu a {
